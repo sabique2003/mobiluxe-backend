@@ -14,7 +14,7 @@ const app = express();
 
 /* ✅ MIDDLEWARE FIRST */
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://mobiluxe-frontend-zu92.vercel.app",
   credentials: true,
 }));
 app.use(express.json());
