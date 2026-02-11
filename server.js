@@ -19,6 +19,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://mobiluxe-frontend-zu92.vercel.app",
+   "https://merobi.com"
 ];
 
 app.use(
